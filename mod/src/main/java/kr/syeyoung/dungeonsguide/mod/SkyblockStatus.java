@@ -104,7 +104,7 @@ public class SkyblockStatus {
         return false;
     }
 
-    private static final Set<String> SKYBLOCK_IN_ALL_LANGUAGES = Sets.newHashSet("SKYBLOCK");
+    private static final Set<String> SKYBLOCK_IN_ALL_LANGUAGES = Sets.newHashSet("SKYBLOCK", "SKIBLOCK");
 
     public void updateStatus() {
         if (!isOnHypixel()) {
